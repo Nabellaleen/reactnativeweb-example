@@ -1,0 +1,32 @@
+{
+  "name": "reactnativeweb",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.electron.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "web": "react-scripts start",
+    "build": "react-scripts build",
+    "test:web": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "react-scripts start & electron ."
+  },
+  "dependencies": {
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-native": "0.57.4",
+    "react-native-web": "0.8.10",
+    "react-art": "16.4.2",
+    "react-redux": "5.0.6",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "react-router-native": "4.2.0",
+    "redux": "3.7.2",
+    "redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-remove-prop-types": "0.4.10",
+    "electron": "1.6.11",
+    "react-scripts": "1.1.0"
+  }
+}
